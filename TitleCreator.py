@@ -4,9 +4,9 @@ Prefixlist = ['Viceroy','Commandant', 'Grand Poo-Bah', 'Archon', 'Duke', 'Chance
 
 Prefixlist2 = ['Principal','Chief','Head','Lead', 'Senior', 'Master']
 
-Joblist = ['Solutions', 'Systems', 'Network', 'Security', 'Compliance', 'Information', 'Scalability']
+Joblist = ['Solutions', 'Systems', 'Network', 'Security', 'Compliance', 'Information', 'Scalability', 'Thought']
 
-Postfixlist = ['Engineer', 'Architect', 'Designer', 'Consultant', 'Manager', 'Officer']
+Postfixlist = ['Engineer', 'Architect', 'Designer', 'Consultant', 'Manager', 'Officer', 'Leader']
 
 Postfixlist2 = ['Engineering', 'Management', 'Development', 'Deployment', 'Technical Training', 'Operations', 'Architecture', 'Infrastructure', 'Technology', 'Administration', 'Management', 'Computational Analytics', 'Database Administration']
 
