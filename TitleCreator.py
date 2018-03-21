@@ -1,8 +1,8 @@
 import random
 
-Prefixlist = ['Viceroy', 'Commandant', 'Grand Poo-Bah', 'Archon', 'Duke', 'Chancellor', 'President', 'Marquis', 'Earl', 'Director', 'Chair', 'Head', 'Senior Director', 'Vice President', 'Intern']
+Prefixlist = ['Viceroy', 'Commandant', 'Grand Poo-Bah', 'Archon', 'Duke', 'Chancellor', 'President', 'Marquis', 'Earl', 'Director', 'Chair', 'Head', 'Senior Director', 'Vice President']
 
-Prefixlist2 = ['Principal', 'Chief', 'Head', 'Lead', 'Senior', 'Master', 'Junior']
+Prefixlist2 = ['Principal', 'Chief', 'Head', 'Lead', 'Senior', 'Master']
 
 Joblist = ['Solutions', 'Systems', 'Network', 'Security', 'Compliance', 'Information', 'Scalability', 'Thought', 'Database', 'Platform', 'Storage', 'Cloud']
 
