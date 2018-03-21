@@ -1,14 +1,14 @@
 import random
 
-Prefixlist = ['Viceroy','Commandant', 'Grand Poo-Bah', 'Archon', 'Duke', 'Chancellor', 'President', 'Marquis', 'Earl', 'Director', 'Chair', 'Head', 'Senior Director']
+Prefixlist = ['Viceroy', 'Commandant', 'Grand Poo-Bah', 'Archon', 'Duke', 'Chancellor', 'President', 'Marquis', 'Earl', 'Director', 'Chair', 'Head', 'Senior Director', 'Vice President', 'Intern']
 
-Prefixlist2 = ['Principal','Chief','Head','Lead', 'Senior', 'Master']
+Prefixlist2 = ['Principal', 'Chief', 'Head', 'Lead', 'Senior', 'Master', 'Junior']
 
-Joblist = ['Solutions', 'Systems', 'Network', 'Security', 'Compliance', 'Information', 'Scalability', 'Thought']
+Joblist = ['Solutions', 'Systems', 'Network', 'Security', 'Compliance', 'Information', 'Scalability', 'Thought', 'Database', 'Platform', 'Storage', 'Cloud']
 
 Postfixlist = ['Engineer', 'Architect', 'Designer', 'Consultant', 'Manager', 'Officer', 'Leader', 'Janitor']
 
-Postfixlist2 = ['Engineering', 'Management', 'Development', 'Deployment', 'Technical Training', 'Operations', 'Architecture', 'Infrastructure', 'Technology', 'Administration', 'Management', 'Computational Analytics', 'Database Administration']
+Postfixlist2 = ['Engineering', 'Management', 'Development', 'Deployment', 'Technical Training', 'Operations', 'Architecture', 'Infrastructure', 'Technology', 'Administration']
 
 RandomDecider = random.randint(0, 1)
 RandomPre = random.choice(Prefixlist)
