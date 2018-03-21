@@ -8,7 +8,7 @@ Joblist = ['Solutions', 'Systems', 'Network', 'Security', 'Compliance', 'Informa
 
 Postfixlist = ['Engineer', 'Architect', 'Designer', 'Consultant', 'Manager', 'Officer', 'Leader', 'Janitor']
 
-Postfixlist2 = ['Engineering', 'Management', 'Development', 'Deployment', 'Technical Training', 'Operations', 'Architecture', 'Infrastructure', 'Technology', 'Administration']
+Postfixlist2 = ['Engineering', 'Management', 'Development', 'Deployment', 'Technical Training', 'Operations', 'Architecture', 'Infrastructure', 'Technology', 'Administration', 'Leadership']
 
 RandomDecider = random.randint(0, 1)
 RandomPre = random.choice(Prefixlist)
