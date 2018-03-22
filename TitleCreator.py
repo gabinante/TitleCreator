@@ -14,13 +14,13 @@ def prefix():
 
 def job():
     l = ['Solutions', 'Systems', 'Network', 'Security', 'Compliance', 'Information', 'Scalability',
-            'Thought', 'Database', 'Platform', 'Storage', 'Cloud', 'DevOps', 'Blockchain', 'Serverless']
+            'Database', 'Platform', 'Storage', 'Cloud', 'DevOps', 'Blockchain', 'Serverless']
     return choice(l)
 
 def ofpostfix():
     l = ['Engineering',
             'Management', 'Development', 'Deployment', 'Technical Training', 'Operations', 'Architecture',
-            'Infrastructure', 'Technology', 'Administration', 'Leadership']
+            'Infrastructure', 'Technology', 'Administration', 'Thought Leadership']
     return choice(l)
 
 def postfix():
