@@ -1,24 +1,24 @@
-from random import seed, randchoice
+# We're now approaching enterprise grade.
+from random import seed, choice
 
-# make enterprise level
 seed()
 
 def prefix():
     l = ['Viceroy', 'Commandant', 'Grand Poo-Bah', 'Archon', 'Duke', 'Chancellor', 'President', 'Marquis', 
             'Earl', 'Director', 'Chair', 'Head', 'Senior Director', 'Vice President', 'Principal', 'Chief', 
             'Head', 'Lead', 'Senior', 'Master', 'Dark Lord',]
-    return randchoice(l)
+    return choice(l)
 
 def job():
     l = ['Solutions', 'Systems', 'Network', 'Security', 'Compliance', 'Information', 'Scalability', 
             'Thought', 'Database', 'Platform', 'Storage', 'Cloud']
-    return randchoice(l)
+    return choice(l)
 
 def postfix():
     l = ['Engineer', 'Architect', 'Designer', 'Consultant', 'Manager', 'Officer', 'Leader', 'Janitor', 'Engineering',
             'Management', 'Development', 'Deployment', 'Technical Training', 'Operations', 'Architecture', 
             'Infrastructure', 'Technology', 'Administration', 'Leadership']
-    return randchoice(l)
+    return choice(l)
 
 print("Congratulations! Your new title is:")
 
