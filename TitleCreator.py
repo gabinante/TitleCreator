@@ -1,6 +1,7 @@
 # We're now approaching enterprise grade.
 from random import seed, choice
 
+
 seed()
 
 def prefix():
@@ -14,11 +15,13 @@ def job():
             'Thought', 'Database', 'Platform', 'Storage', 'Cloud']
     return choice(l)
 
+
 def postfix():
     l = ['Engineer', 'Architect', 'Designer', 'Consultant', 'Manager', 'Officer', 'Leader', 'Janitor', 'Engineering',
             'Management', 'Development', 'Deployment', 'Technical Training', 'Operations', 'Architecture', 
             'Infrastructure', 'Technology', 'Administration', 'Leadership']
     return choice(l)
+
 
 print("Congratulations! Your new title is:")
 
