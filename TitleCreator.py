@@ -1,26 +1,38 @@
-import random
+# We're now approaching enterprise grade.
+from random import seed, choice
 
-Prefixlist = ['Viceroy', 'Commandant', 'Grand Poo-Bah', 'Archon', 'Duke', 'Chancellor', 'President', 'Marquis', 'Earl', 'Director', 'Chair', 'Head', 'Senior Director', 'Vice President' 'Dark Lord']
+seed()
 
-Prefixlist2 = ['Principal', 'Chief', 'Head', 'Lead', 'Senior', 'Master']
+def ofprefix():
+    l = ['Viceroy', 'Commandant', 'Grand Poo-Bah', 'Archon', 'Duke', 'Chancellor', 'President', 'Marquis',
+            'Earl', 'Director', 'Chair', 'Head', 'Senior Director', 'Vice President', 'Dark Lord']
+    return choice(l)
 
-Joblist = ['Solutions', 'Systems', 'Network', 'Security', 'Compliance', 'Information', 'Scalability', 'Thought', 'Database', 'Platform', 'Storage', 'Cloud']
+def prefix():
+    l = ['Principal', 'Chief', 'Head', 'Lead', 'Senior', 'Master']
+    return choice(l)
 
-Postfixlist = ['Engineer', 'Architect', 'Designer', 'Consultant', 'Manager', 'Officer', 'Leader', 'Janitor', 'Plumber']
+def job():
+    l = ['Solutions', 'Systems', 'Network', 'Security', 'Compliance', 'Information', 'Scalability',
+            'Thought', 'Database', 'Platform', 'Storage', 'Cloud', 'DevOps', 'Blockchain', 'Serverless']
+    return choice(l)
 
-Postfixlist2 = ['Engineering', 'Management', 'Development', 'Deployment', 'Technical Training', 'Operations', 'Architecture', 'Infrastructure', 'Technology', 'Administration', 'Leadership']
+def ofpostfix():
+    l = ['Engineering',
+            'Management', 'Development', 'Deployment', 'Technical Training', 'Operations', 'Architecture',
+            'Infrastructure', 'Technology', 'Administration', 'Leadership']
+    return choice(l)
 
-RandomDecider = random.randint(0, 1)
-RandomPre = random.choice(Prefixlist)
-RandomPre2 = random.choice(Prefixlist2)
-RandomJob = random.choice(Joblist)
-RandomPost = random.choice(Postfixlist)
-RandomPost2 = random.choice(Postfixlist2)
+def postfix():
+    l = ['Engineer', 'Architect', 'Designer', 'Consultant', 'Manager', 'Officer', 'Leader', 'Janitor', 'Plumber']
+    return choice(l)
+
+def ofornot():
+    l = ['1', '0']
+    return choice(l)
 
 print("Congratulations! Your new title is:")
-
-if RandomDecider == 1:
-  print(RandomPre + ' of ' + RandomJob + ' ' + RandomPost2)
-
+if ofornot() == '1':
+    print(ofprefix() + ' of ' + job() + ' ' + ofpostfix())
 else:
-  print(RandomPre2 + ' ' + RandomJob + ' ' + RandomPost)
+    print(prefix() + ' ' + job() + ' ' + postfix())
