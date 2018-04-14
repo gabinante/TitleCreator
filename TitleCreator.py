@@ -6,11 +6,11 @@ seed()
 def ofprefix():
     l = ['Viceroy', 'Commandant', 'Grand Poo-Bah', 'Archon', 'Duke', 'Chancellor', 'President', 'Marquis',
             'Earl', 'Director', 'Chair', 'Head', 'Senior Director', 'Vice President', 'Dark Lord',
-            'Dread Lord', 'Czar', 'Emperor', 'Baron', 'Guru', 'Administrator']
+            'Dread Lord', 'Czar', 'Emperor', 'Baron', 'Guru']
     return choice(l)
 
 def prefix():
-    l = ['Principal', 'Chief', 'Head', 'Lead', 'Senior', 'Master', 'Arch', 'Grand', 'Premier']
+    l = ['Principal', 'Chief', 'Head', 'Lead', 'Senior', 'Master', 'Premier']
     return choice(l)
 
 def job():
