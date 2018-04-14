@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # We're now approaching enterprise grade.
 from random import seed, choice
 
