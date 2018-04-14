@@ -5,8 +5,9 @@ Inspired by a salesperson who would always introduce me with a new title on ever
 [Gabe Abinante (gabinante)](https://github.com/gabinante)
 
 ## Contributors
-[Don O'Neill (sntxrr)](https://github.com/rrxtns)
-[Joe Block (unixorn)](https://github.com/unixorn)
+
+* [Don O'Neill (sntxrr)](https://github.com/rrxtns)
+* [Joe Block (unixorn)](https://github.com/unixorn)
 
 
 ## Instructions to get a new title:
