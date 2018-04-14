@@ -6,6 +6,7 @@ Inspired by a salesperson who would always introduce me with a new title on ever
 
 ## Contributors
 [Don O'Neill (sntxrr)](https://github.com/rrxtns)
+[Joe Block (unixorn)](https://github.com/unixorn)
 
 
 ## Instructions to get a new title:
