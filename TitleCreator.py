@@ -11,7 +11,7 @@ def ofprefix():
     return choice(l)
 
 def prefix():
-    l = ['Principal', 'Chief', 'Head', 'Lead', 'Senior', 'Master', 'Premier']
+    l = ['Principal', 'Chief', 'Head', 'Lead', 'Senior', 'Master', 'Premier', 'Scrum Certified']
     return choice(l)
 
 def job():
@@ -22,7 +22,7 @@ def job():
 def ofpostfix():
     l = ['Engineering',
             'Management', 'Development', 'Deployment', 'Technical Training', 'Operations', 'Architecture',
-            'Infrastructure', 'Technology', 'Administration', 'Thought Leadership', 'Shiny Things']
+            'Infrastructure', 'Technology', 'Administration', 'Thought Leadership', 'Shiny Things', 'Agility']
     return choice(l)
 
 def postfix():
