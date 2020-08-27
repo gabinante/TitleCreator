@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # We're now approaching enterprise grade.
 from random import seed, choice
 
@@ -5,11 +6,12 @@ seed()
 
 def ofprefix():
     l = ['Viceroy', 'Commandant', 'Grand Poo-Bah', 'Archon', 'Duke', 'Chancellor', 'President', 'Marquis',
-            'Earl', 'Director', 'Chair', 'Head', 'Senior Director', 'Vice President', 'Dark Lord']
+            'Earl', 'Director', 'Chair', 'Head', 'Senior Director', 'Vice President', 'Dark Lord',
+            'Dread Lord', 'Czar', 'Emperor', 'Baron', 'Guru']
     return choice(l)
 
 def prefix():
-    l = ['Principal', 'Chief', 'Head', 'Lead', 'Senior', 'Master']
+    l = ['Principal', 'Chief', 'Head', 'Lead', 'Senior', 'Master', 'Premier', 'Scrum Certified']
     return choice(l)
 
 def job():
@@ -20,7 +22,7 @@ def job():
 def ofpostfix():
     l = ['Engineering',
             'Management', 'Development', 'Deployment', 'Technical Training', 'Operations', 'Architecture',
-            'Infrastructure', 'Technology', 'Administration', 'Thought Leadership']
+            'Infrastructure', 'Technology', 'Administration', 'Thought Leadership', 'Shiny Things', 'Agility']
     return choice(l)
 
 def postfix():
