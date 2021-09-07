@@ -8,6 +8,7 @@ Inspired by a salesperson who would always introduce me with a new title on ever
 
 * [Don O'Neill (sntxrr)](https://github.com/rrxtns)
 * [Joe Block (unixorn)](https://github.com/unixorn)
+* [Brandon McNama (DWSR)](https://github.com/DWSR)
 
 
 ## Instructions to get a new title:
@@ -19,3 +20,7 @@ Enter this in the command line:
 `Python TitleCreator.py` or `./TitleCreator.py` on Linux/BSD/macOS.
 
 ^ You did it! You have a new title! Add it to your Linkedin.
+
+#### COMING SOON
+
+a `golang` version 
