@@ -8,6 +8,7 @@ Inspired by a salesperson who would always introduce me with a new title on ever
 
 * [Don O'Neill (sntxrr)](https://github.com/rrxtns)
 * [Joe Block (unixorn)](https://github.com/unixorn)
+* [Evan Mendenhall](https://github.com/evanmendenhall)
 
 
 ## Instructions to get a new title:

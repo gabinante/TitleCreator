@@ -7,7 +7,7 @@ seed()
 def ofprefix():
     l = ['Viceroy', 'Commandant', 'Grand Poo-Bah', 'Archon', 'Duke', 'Chancellor', 'President', 'Marquis',
             'Earl', 'Director', 'Chair', 'Head', 'Senior Director', 'Vice President', 'Dark Lord',
-            'Dread Lord', 'Czar', 'Emperor', 'Baron', 'Guru']
+            'Dread Lord', 'Czar', 'Khan', 'Emperor', 'Baron', 'Guru']
     return choice(l)
 
 def prefix():
@@ -26,7 +26,7 @@ def ofpostfix():
     return choice(l)
 
 def postfix():
-    l = ['Engineer', 'Architect', 'Designer', 'Consultant', 'Manager', 'Officer', 'Leader', 'Janitor', 'Plumber']
+    l = ['Engineer', 'Architect', 'Jedi', 'Designer', 'Consultant', 'Manager', 'Officer', 'Leader', 'Janitor', 'Plumber']
     return choice(l)
 
 def ofornot():
